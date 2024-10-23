@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(199, 195, 195);
+    height: 92%;
+}
+.Body {
+
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+.text{
+    flex: 1;
+    width: 400px;
+    margin: 20px;
+    padding: 10px;
+    align-self: center;
+    text-align:start ;
+}
+
+.greet{
+    background-color: rgb(88, 116, 92);
+    height: 72px;
+    width: 500px;
+    padding: 0px 5px 0px;
+    text-align:start ;
+    align-self: start;
+    color: rgb(199, 195, 195);
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Body img {
+    margin-bottom: 0px;
+    flex: 1;
+}
+
+p{
+    margin-top: 4px;
+    color: rgb(35, 33, 33);
+    font-size: 45px;
+}

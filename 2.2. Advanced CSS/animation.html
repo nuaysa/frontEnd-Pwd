@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Animation</title>
+    <style>
+        .box{
+            width: 100px;
+            height: 100px;
+            background-color: violet;
+            animation-name: example;
+            animation-duration: 6s;
+            animation-iteration-count: infinite;
+            position: relative;
+            border-radius: 50%;
+            /* margin: 50px; */
+            /* transform: translate(100px, 100px); */
+            /* transform: rotate(45deg) ; */
+            /* transform: perspective(700px) translateX(100px); */
+        }
+        @keyframes example {
+            /* from {
+                background-color: rgb(210, 223, 95);
+            }
+            to{
+                background-color: rgb(69, 186, 212);
+            } */
+            0%{background-color: rgb(66, 191, 91); left: 0px; top: 0px;transform: rotate(0deg);}
+            25%{background-color: rgb(144, 203, 156); left: 200px; top: 0px;transform: rotate(45deg)}
+            50%{background-color: rgb(0, 255, 162); left: 200px; top: 200px;transform: rotate(90deg)}
+            75%{background-color: rgb(51, 95, 51); left: 0px; top: 200px;transform: rotate(135deg)}
+            100%{background-color: rgb(147, 206, 165); left: 0px; top: 0px;transform: rotate(0deg)}
+        }
+    </style>
+</head>
+<body>
+    <div class="box">A</div>
+</body>
+</html>

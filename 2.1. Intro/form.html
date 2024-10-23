@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <input type="text"/>
+        <input type="password" required/>
+        <input type="checkbox"/>
+        <input type="radio"/>
+        <input type="number" min="1" max="10"/>
+        <input type="submit" value="Submit"/>
+        <textarea rows="3" cols="64"></textarea>
+    </form>
+    <button type="button">ok</button>
+    <button type="button" onclick="doSomething()">Hallo</button>
+    <p>Apa Warna favoritmu ?</p>
+    <select>
+        <option value="">Merah</option>
+        <option selected>biru</option>
+        <option value="">Kuning</option>
+        <option value="">Hijau</option>
+    </select>
+    <fieldset>
+        <legend>Data</legend>
+        <p>
+            <label for="user">Username</label>
+            <input type="text" name="user">
+        </p>
+
+        <p>
+            <label for="pass">Password</label>
+            <input type="Password" name="pass">
+        </p>
+
+        <p>
+            <label for="usia">Usia</label>
+            <input type="number" name="usia">
+        </p>
+        <button type="button">ok</button>
+    </fieldset>
+
+    <script>
+        function doSomething(){
+            prompt("masukkan nama");
+        }
+    </script>
+</body>
+</html>

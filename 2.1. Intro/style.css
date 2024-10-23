@@ -1,0 +1,45 @@
+body{
+    /* background-color: beige; */
+    /* background: linear-gradient(90deg, rgb(43, 43, 84), rgb(98, 94, 134));
+     */
+    background-image: url(img/aafbd478-c6f6-4432-82ea-f06a280b44cc.jpeg);
+    background-size: auto;
+}
+
+p{
+    color: rgb(100, 188, 164)
+}
+
+.mobil{
+    color: rgb(166, 151, 151)
+}
+
+#avanza{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text{
+    font-size: 20px;
+    font-family: monospace;
+    color: blueviolet;
+}
+
+.content{
+    width: 500px;
+    height: 200px;
+    background-color: aquamarine;
+    border-radius: 20px;
+    margin: 20px;
+    text-align: center;
+    align-content: center;
+    border: 10px double rgb(60, 51, 51);
+}
+.text:hover{
+    font-size: 36px;
+    color: rgb(237, 230, 230);
+}
+
+.content:hover{
+    background-color: rgb(19, 14, 14);
+    cursor:grabbing
+}
