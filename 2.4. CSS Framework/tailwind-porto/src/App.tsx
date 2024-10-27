@@ -56,14 +56,14 @@ function App() {
         <img src={mail} className='w-[50px]'/><p></p>
           </a>      
       </div>
-      <div className="text-center h-20 items-center bg-amber-500 mb-10">
+      <div className="text-center items-center bg-amber-500 mb-2">
       <TypeAnimation
         sequence ={[
           'Thanks for  visiting my website!', 1000,
           'See you next time! 🤟🏻', 1000,
         ]}
         wrapper="span"
-        speed={40}
+        speed={20}
         style={{fontSize: '2em', fontFamily:'monospace', textAlign: "center", color: "white"}}
         repeat={Infinity}
       />
