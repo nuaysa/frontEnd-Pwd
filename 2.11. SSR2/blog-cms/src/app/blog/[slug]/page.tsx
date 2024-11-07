@@ -1,4 +1,3 @@
-import Wrapper from "@/components/wrapper";
 import { getBlogs, getBlogSlug } from "@/libs/blog";
 import { IBlog } from "@/types/blog";
 import { documentToReactComponents, Options } from "@contentful/rich-text-react-renderer";
