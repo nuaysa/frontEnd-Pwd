@@ -1,0 +1,40 @@
+{
+  "user": [
+    {
+      "id": "ca59",
+      "username": "Andi ",
+      "email": "andi@gmail.com",
+      "password": "andiAAA"
+    },
+    {
+      "id": "4e80",
+      "username": "Budi ",
+      "email": "budi@gmail.com",
+      "password": "Budi"
+    },
+    {
+      "id": "df3a",
+      "username": "Allen",
+      "email": "suzaku@pdxlv.com",
+      "password": "pdxlv"
+    },
+    {
+      "id": "519f",
+      "username": "Hajun",
+      "email": "48@pdxlv.com",
+      "password": "48yonhachi"
+    },
+    {
+      "id": "f714",
+      "username": "abc",
+      "email": "...@gml.com",
+      "password": "..."
+    },
+    {
+      "id": "b2d1",
+      "username": "agein",
+      "email": "1codeA@gmail.co",
+      "password": "asd123"
+    }
+  ]
+}
